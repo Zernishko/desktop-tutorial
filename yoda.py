@@ -5,6 +5,7 @@ print(id(force_words))
 first_word = force_words.pop(0)
 last_word = force_words.pop()
 
+# Логика аоплродвлядлия.
 force_words.append(last_word)
 force_words.insert(0, first_word)
 
